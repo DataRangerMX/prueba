@@ -25,3 +25,17 @@ h3 {
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
 }
+
+.herramientas {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.herramienta {
+    background-color: #e0ecff;
+    color: #0f4c81;
+    padding: 10px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+}
