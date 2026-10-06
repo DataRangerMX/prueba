@@ -18,3 +18,10 @@ h2 {
 h3 {
     color: #0f4c81;
 }
+.tarjeta {
+    background-color: white;
+    padding: 25px;
+    margin-top: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
+}
