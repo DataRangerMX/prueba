@@ -13,6 +13,43 @@ body {
 
 
 /* =========================================
+   MENÚ DE NAVEGACIÓN
+   ========================================= */
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 18px 30px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0f4c81;
+}
+
+.menu-enlaces {
+    display: flex;
+    gap: 25px;
+}
+
+.menu-enlaces a {
+    color: #0f4c81;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu-enlaces a:hover {
+    color: #2563eb;
+}
+
+
+/* =========================================
    TÍTULOS
    ========================================= */
 
@@ -81,8 +118,9 @@ h3 {
 
 
 /* =========================================
-   DISEÑO PARA CELULARES
+   BOTONES
    ========================================= */
+
 .boton {
     display: inline-block;
     background-color: #2563eb;
@@ -97,6 +135,12 @@ h3 {
 .boton:hover {
     background-color: #0f4c81;
 }
+
+
+/* =========================================
+   DISEÑO PARA CELULARES
+   ========================================= */
+
 @media (max-width: 700px) {
 
     body {
@@ -106,57 +150,22 @@ h3 {
     h1 {
         font-size: 32px;
     }
-/* ===== MENÚ DE NAVEGACIÓN ===== */
 
-.menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    .menu {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        padding: 18px;
+    }
 
-    background-color: white;
+    .menu-enlaces {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
 
-    padding: 18px 30px;
-    margin-bottom: 30px;
+    .proyectos {
+        grid-template-columns: 1fr;
+    }
 
-    border-radius: 12px;
-
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
-}
-
-/* ===== MENÚ DE NAVEGACIÓN ===== */
-
-.menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    background-color: white;
-
-    padding: 18px 30px;
-    margin-bottom: 30px;
-
-    border-radius: 12px;
-
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #0f4c81;
-}
-
-.menu-enlaces {
-    display: flex;
-    gap: 25px;
-}
-
-.menu-enlaces a {
-    color: #0f4c81;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.menu-enlaces a:hover {
-    color: #2563eb;
 }
