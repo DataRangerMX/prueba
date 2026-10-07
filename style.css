@@ -169,3 +169,56 @@ h3 {
     }
 
 }
+/* =========================================
+   MODO OSCURO
+   ========================================= */
+
+body.modo-oscuro {
+    background-color: #111827;
+    color: #f9fafb;
+}
+
+body.modo-oscuro .menu {
+    background-color: #1f2937;
+}
+
+body.modo-oscuro .logo {
+    color: #60a5fa;
+}
+
+body.modo-oscuro .menu-enlaces a {
+    color: #f9fafb;
+}
+
+body.modo-oscuro .tarjeta {
+    background-color: #1f2937;
+}
+
+body.modo-oscuro .proyecto {
+    background-color: #1f2937;
+}
+
+body.modo-oscuro h1,
+body.modo-oscuro h3 {
+    color: #60a5fa;
+}
+
+body.modo-oscuro h2 {
+    color: #93c5fd;
+}
+
+
+/* Botón para cambiar tema */
+
+.boton-tema {
+    background-color: transparent;
+    border: 1px solid #0f4c81;
+    border-radius: 8px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+body.modo-oscuro .boton-tema {
+    border-color: #f9fafb;
+}
