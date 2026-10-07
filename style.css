@@ -25,6 +25,21 @@ h3 {
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
 }
+@media (max-width: 700px) {
+
+    .proyectos {
+        grid-template-columns: 1fr;
+    }
+
+    body {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+}
 
 .herramientas {
     display: flex;
