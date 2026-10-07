@@ -123,6 +123,23 @@ h3 {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
 }
 
+/* ===== MENÚ DE NAVEGACIÓN ===== */
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: white;
+
+    padding: 18px 30px;
+    margin-bottom: 30px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
+}
+
 .logo {
     font-size: 24px;
     font-weight: bold;
@@ -142,9 +159,4 @@ h3 {
 
 .menu-enlaces a:hover {
     color: #2563eb;
-}
-    .proyectos {
-        grid-template-columns: 1fr;
-    }
-
 }
